@@ -1,0 +1,16 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Go artifacts
+# Ignoruj pliki binarne (bez rozszerzeń na Linuxie), ale nie katalogi
+# To prosta reguła: ignoruj wszystko co nie ma kropki (ryzykowne)
+# Lepsza: ignoruj konkretne nazwy binarek, np:
+main
+app
+server
+
+# OS clutter
+.DS_Store
