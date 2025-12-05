@@ -1,0 +1,33 @@
+# As you may have guessed, the bitwise "or" operator is similar to the bitwise "and" operator in that
+# it works on binary rather than boolean values. However, the bitwise "or" operator "or"s the bits together.
+# Here's an example:
+
+# 0101 is 5
+# 0111 is 7
+# 0101
+# |
+# 0111
+# =
+# 0111
+
+# A 1 in binary is the same as True, while 0 is False. So a bitwise operation is just a bunch of logical
+# operations that are completed in tandem. When two binary numbers are "or"ed together, the result has
+# a 1 in any place where either of the input numbers has a 1 in that place.
+
+# | is the bitwise "or" operator in Python. 5 | 7 = 7 and 5 | 2 = 7 as well!
+
+# 0101 is 5
+# 0010 is 2
+# 0101
+# |
+# 0010
+# =
+# 0111
+
+##############################################################################
+
+
+def calculate_guild_perms(glorfindel, galadriel, elendil, elrond):
+    sharePerms = glorfindel | galadriel | elendil | elrond
+    return sharePerms
+    pass
