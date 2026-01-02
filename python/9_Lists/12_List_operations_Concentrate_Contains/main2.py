@@ -28,7 +28,9 @@ def is_top_weapon(weapon):
         "spiked knuckles",
     ]
 
-    if weapon in top_weapons:
-        return True
-    else:
-        return False
+    return weapon in top_weapons
+
+    # if weapon in top_weapons:
+    #    return True
+    # else:
+    #    return False
